@@ -1,9 +1,8 @@
 require 'active_support/core_ext/string'
+require 'zkg/key_val_store/errors'
 
 module ZKG
   module KeyValStore
-    class NoAdapterError < StandardError; end
-    
     class << self
       def get(*key_path)
         raise NoAdapterError unless @adapter
