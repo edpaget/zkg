@@ -10,6 +10,7 @@ gem 'mustermann'
 
 group :test do
   gem 'rspec'
+  gem 'http'
 end
 
 group :development do

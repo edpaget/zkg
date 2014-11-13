@@ -82,6 +82,7 @@ DEPENDENCIES
   angelo
   celluloid-http
   celluloid-redis
+  http
   mustermann
   pry
   pry-doc
