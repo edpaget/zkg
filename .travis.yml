@@ -2,14 +2,8 @@ language: ruby
 
 cache: bundler
 
-jdk:
-  - openjdk7
-
 rvm:
   - 2.1.4
-  - jruby-19mode
-
-env: JRUBY_OPTS=--2.0
 
 script: bundle exec rake spec
   
