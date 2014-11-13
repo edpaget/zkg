@@ -7,6 +7,7 @@ gem 'redis'
 gem 'celluloid-redis'
 gem 'activesupport'
 gem 'mustermann'
+gem 'rake'
 
 group :test do
   gem 'rspec'
